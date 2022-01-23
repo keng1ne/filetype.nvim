@@ -6,7 +6,7 @@ local default_options = {
   textwidth = 120,
   shiftwidth = 2
 }
-require('filetype.nvim').setup(
+require('filetype').setup(
 {
   enable = true,
   config = {
